@@ -1,5 +1,35 @@
-.main-bg img {
-  margin-top: -35%;
-  position: absolute;
-  opacity: 0.7;
+nav a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline !important;
+  color: white;
+}
+
+nav i {
+  color: white;
+}
+
+nav {
+  background-color: black;
+  opacity: .7;
+}
+
+.main-bg {
+  background-image: url("../images/main-bg.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.maintext {
+  margin: auto;
+}
+
+.maintext h1 {
+  font-size: 70px;
 }
