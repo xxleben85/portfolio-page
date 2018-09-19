@@ -14,22 +14,47 @@ nav i {
 
 nav {
   background-color: black;
-  opacity: .7;
+  opacity: .8;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: white;
 }
 
 .main-bg {
-  background-image: url("../images/main-bg.jpg");
+  background-image: url("../images/main-bg2.jpg");
   background-repeat:no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center;
-  opacity: 0.9;
 }
 
 .maintext {
   margin: auto;
+  text-align: center;
 }
 
 .maintext h1 {
-  font-size: 70px;
+  font-size: 60px;
+  text-shadow: 10px 10px 15px #000000;
+}
+
+.hrmain {
+  width: 15%;
+  height: 3px;
+  background-color: #F1948A;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  border-width: medium;
+  opacity: 0.5;
+  margin-top: 30px;
+}
+
+.portfolio {
+  text-align: center;
+  margin: 50px;
+}
+
+.portfolio img {
+  margin: 10px;
 }
