@@ -58,3 +58,12 @@ nav {
 .portfolio img {
   margin: 10px;
 }
+
+.about {
+  text-align: center;
+}
+
+.portfoliobg {
+  background-color:  #FAEBD7;
+  text-align: center;
+}
