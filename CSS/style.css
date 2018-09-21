@@ -26,6 +26,9 @@ nav {
   background-size: cover;
   height: 100vh;
   background-position: center;
+  border-bottom-style: solid;
+  border-width: medium;
+  border-color: black;
 }
 
 .maintext {
@@ -63,17 +66,22 @@ nav {
   opacity: .6;
 }
 
+.portfoliobg div h1 strong {
+  font-family: 'Holtwood One SC', serif;
+}
+
 .about {
   text-align: center;
   background-color: #F1ECEC;
   font-size: 120%;
 }
 
-.about p {
-  height: 20px;
+.about div p {
+  font-family: 'Lobster', cursive;
   padding: 0 60px;
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 10%;
+  font-size: 30px;
 }
 
 .portfoliobg div {
@@ -82,8 +90,8 @@ nav {
 }
 
 .me {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   margin: 20px;
   border-color: #2F4F4F;
@@ -99,7 +107,42 @@ nav {
 
 .footerbg {
   background-image: url("../images/footer.jpg");
-  height: 100vh;
+  height: 105vh;
   background-size: cover;
   margin: auto;
+  border-top-style: solid;
+  border-width: thick;
+  border-color: black;
+}
+
+.about h1 strong {
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+}
+
+.contact {
+  padding:  80px 0;
+  font-family: 'Rye', cursive;
+}
+
+.contact ul li a {
+  color: white;
+  font-size: 40px;
+  text-shadow: 10px 10px 10px #000000;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  color: orange !important;
+}
+
+ .contact ul li {
+  list-style: none;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.name {
+  font-family: 'Rye', cursive;
+  color: orange;
 }
