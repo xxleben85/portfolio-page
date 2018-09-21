@@ -59,11 +59,47 @@ nav {
   margin: 10px;
 }
 
-.about {
-  text-align: center;
+.portfolio img:hover {
+  opacity: .6;
 }
 
-.portfoliobg {
-  background-color:  #FAEBD7;
+.about {
   text-align: center;
+  background-color: #F1ECEC;
+  font-size: 120%;
+}
+
+.about p {
+  height: 20px;
+  padding: 0 60px;
+  font-weight: 400;
+  margin-bottom: 10%;
+}
+
+.portfoliobg div {
+  text-align: center;
+  font-size: 110%;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  border-color: #2F4F4F;
+  border-style: solid;
+  border-width: thin;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.container-fluid {
+  width: auto;
+}
+
+.footerbg {
+  background-image: url("../images/footer.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin: auto;
 }
